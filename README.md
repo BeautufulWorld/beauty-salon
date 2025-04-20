@@ -14,7 +14,6 @@ class WaterCheck:
         }
         self.log.append(result)
         return result
-
     def evaluate(self, ph, hardness, tds):
         if not (6.5 <= ph <= 7.5):
             return "❌ pH вне нормы"
