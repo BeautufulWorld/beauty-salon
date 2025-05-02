@@ -1,7 +1,6 @@
 
 class WaterCheck:
     def __init__(self):
-    
         self.last_check_date = None
         self.log = []
     def perform_check(self, ph, hardness, tds):
