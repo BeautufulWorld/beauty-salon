@@ -11,7 +11,6 @@ class WaterCheck:
             "Hardness (ppm)": hardness,
             "TDS (ppm)": tds,
             "Status": self.evaluate(ph, hardness, tds)
-            
         }
         self.log.append(result)
         return result
