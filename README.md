@@ -7,7 +7,6 @@ class WaterCheck:
         self.last_check_date = datetime.date.today()
         result = {  
             "date": self.last_check_date,
-            
             "pH": ph,
             "Hardness (ppm)": hardness,
             "TDS (ppm)": tds,
