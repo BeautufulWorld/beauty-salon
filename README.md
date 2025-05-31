@@ -18,6 +18,7 @@ class WaterCheck:
         if not (6.5 <= ph <= 7.5):
             return "❌ pH вне нормы"
         if hardness > 150:
+        //still stikky
             return "❌ Слишком жёсткая вода"
         if tds > 500:
             return "❌ Высокое содержание солей"
