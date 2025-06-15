@@ -4,11 +4,13 @@ class WaterCheck:
         self.last_check_date = None
         self.log = []
     def perform_check(self, ph, hardness, tds):
+    wtf>
         self.last_check_date = datetime.date.today()
            
         result = {  
             "date": self.last_check_date,
             "pH": ph,
+            
             "Hardness (ppm)": hardness,
             "TDS (ppm)": tds,
             "Status": self.evaluate(ph, hardness, tds)
