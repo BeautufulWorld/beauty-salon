@@ -9,7 +9,6 @@ class WaterCheck:
         result = {  
             "date": self.last_check_date,
             "pH": ph,
-            
             "Hardness (ppm)": hardness,
             "TDS (ppm)": tds,
             "Status": self.evaluate(ph, hardness, tds)
