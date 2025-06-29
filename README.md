@@ -1,11 +1,16 @@
 baby
 class WaterCheck:
     def __init__(self):
-        self.last_check_date = None
+        self.last_check_date = Nonew
+        w
+        
         self.log = []
     def perform_check(self, ph, hardness, tds):
     wtf>
         self.last_check_date = datetime.date.today()
+
+        asd
+        q
         result = {  
             "date": self.last_check_date,
             "pH": ph,
