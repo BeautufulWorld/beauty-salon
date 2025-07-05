@@ -6,6 +6,8 @@ class WaterCheck:
         self.log = []
     def perform_check(self, ph, hardness, tds):
     wtf>
+    scientist
+    
         self.last_check_date = datetime.date.today()
 
         asd
