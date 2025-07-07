@@ -4,7 +4,9 @@ class WaterCheck:
         self.last_check_date = Nonew
         w
         self.log = []
-    def perform_check(self, ph, hardness, tds):
+    def perform_check(self, ph, hardness, tds):e
+    w
+    e
     wtf>
     scientist
     
