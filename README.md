@@ -9,7 +9,6 @@ class WaterCheck:
     e
     wtf>
     scientist
-    
         self.last_check_date = datetime.date.today()
 
         asd
